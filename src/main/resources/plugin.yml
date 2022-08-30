@@ -1,0 +1,9 @@
+name: SnowballKBFix
+version: '${project.version}'
+main: me.haru301.snowballkbfix.SnowballKBFix
+api-version: 1.16
+commands:
+  reloadconfig:
+    description: "Reload Config"
+    usage: /reloadconfig
+    permission: SnowballKB.reloadconfig
